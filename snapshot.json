@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at_utc": "2026-08-21T17:40:31Z",
+ "generated_at_utc": "2026-08-21T17:45:32Z",
  "app_version": "1.3.3",
  "readonly": true,
  "show_station_category": true,
@@ -10,7 +10,7 @@
   "event_callsign": "ON6WL/P",
   "organizer_club": "WLD",
   "start_utc": "2026-08-15T07:11:00Z",
-  "end_utc": "2026-08-17T15:11:00Z",
+  "end_utc": "2026-08-22T15:11:00Z",
   "display_timezone": "Europe/Brussels",
   "bands": [
    "160m",
@@ -19,7 +19,15 @@
   ],
   "closed": false
  },
- "sources": [],
+ "sources": [
+  {
+   "name": "WLD-720TVQ4",
+   "last_seen_utc": "2026-08-21T17:42:42Z",
+   "packet_count": 1,
+   "last_address": "127.0.0.1",
+   "fresh": true
+  }
+ ],
  "stations": [
   {
    "callsign": "ON4BAF/p",
@@ -193,10 +201,23 @@
      "status": "not_worked"
     },
     "40m": {
-     "status": "not_worked"
+     "status": "worked_by_n1mm",
+     "at_utc": "2026-08-21T17:42:42Z",
+     "mode": "LSB",
+     "freq_khz": 7154.0,
+     "source": "WLD-720TVQ4",
+     "qso_count": 1
     }
    },
-   "qsos": []
+   "qsos": [
+    {
+     "band": "40m",
+     "at_utc": "2026-08-21T17:42:42Z",
+     "mode": "LSB",
+     "freq_khz": 7154.0,
+     "source": "WLD-720TVQ4"
+    }
+   ]
   },
   {
    "callsign": "ON5LL/p",
@@ -368,13 +389,13 @@
   "stations_total": 14,
   "bands_total": 3,
   "cells_total": 42,
-  "cells_worked": 7,
-  "cells_open": 35,
+  "cells_worked": 8,
+  "cells_open": 34,
   "manual_overrides": 0,
   "cells_excluded": 0,
   "stations_complete": 0,
-  "stations_partial": 6,
-  "stations_untouched": 8,
+  "stations_partial": 7,
+  "stations_untouched": 7,
   "per_band": {
    "160m": {
     "total": 14,
@@ -392,8 +413,8 @@
    },
    "40m": {
     "total": 14,
-    "worked": 2,
-    "open": 12,
+    "worked": 3,
+    "open": 11,
     "manual_overrides": 0,
     "excluded": 0
    }
@@ -410,8 +431,8 @@
    "Restricted A12u": {
     "stations": 4,
     "total": 12,
-    "worked": 3,
-    "open": 9,
+    "worked": 4,
+    "open": 8,
     "manual_overrides": 0,
     "excluded": 0
    },
@@ -465,6 +486,6 @@
  },
  "publication": {
   "state": "live",
-  "end_utc": "2026-08-17T15:11:00Z"
+  "end_utc": "2026-08-22T15:11:00Z"
  }
 }
