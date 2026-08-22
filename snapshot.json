@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at_utc": "2026-08-21T19:30:58Z",
+ "generated_at_utc": "2026-08-22T15:45:21Z",
  "app_version": "1.3.3",
  "readonly": true,
  "show_station_category": true,
@@ -19,15 +19,7 @@
   ],
   "closed": false
  },
- "sources": [
-  {
-   "name": "WLD-720TVQ4",
-   "last_seen_utc": "2026-08-21T19:21:01Z",
-   "packet_count": 5,
-   "last_address": "127.0.0.1",
-   "fresh": false
-  }
- ],
+ "sources": [],
  "stations": [
   {
    "callsign": "ON4BAF/p",
