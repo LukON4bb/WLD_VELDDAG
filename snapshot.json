@@ -1,18 +1,908 @@
 {
- "generated_at_utc": "2026-09-04T07:58:06Z",
+ "schema_version": 1,
+ "generated_at_utc": "2026-09-04T08:02:27Z",
+ "app_version": "1.3.3",
  "readonly": true,
- "publication": {
-  "state": "upcoming",
-  "next_name": "FIELDDAY_SSB_2026",
-  "next_start_utc": "2026-09-04T08:00:00Z",
-  "next_location": ""
- },
+ "show_station_category": true,
  "field_day": {
-  "name": "FIELDDAY_SSB_2026"
+  "name": "FIELDDAY_SSB_2026",
+  "location": "",
+  "event_callsign": "",
+  "organizer_club": "",
+  "start_utc": "2026-09-04T08:00:00Z",
+  "end_utc": "2026-09-06T16:00:00Z",
+  "display_timezone": "Europe/Brussels",
+  "bands": [
+   "160m",
+   "80m",
+   "40m"
+  ],
+  "closed": false
  },
- "stations": [],
- "bands": [],
- "stats": {},
- "legend": {},
- "colors": {}
+ "sources": [],
+ "stations": [
+  {
+   "callsign": "ON4BAF/p",
+   "normalized": "ON4BAF",
+   "category": "Open AB B.LP",
+   "section": "RST",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON4CDZ/p",
+   "normalized": "ON4CDZ",
+   "category": "Restricted A12u",
+   "section": "CDZ",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON4CP/p",
+   "normalized": "ON4CP",
+   "category": "Open AB A.HP",
+   "section": "LVN",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON4CPN/p",
+   "normalized": "ON4CPN",
+   "category": "Restricted A24u",
+   "section": "CPN",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON4EKO/p",
+   "normalized": "ON4EKO",
+   "category": "Open AB B.LP",
+   "section": "EKO",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON4FA/p",
+   "normalized": "ON4FA",
+   "category": "Restricted A24u",
+   "section": "RAF",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON4KSD/p",
+   "normalized": "ON4KSD",
+   "category": "Open AB B.LP",
+   "section": "KSD",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON4MCL/p",
+   "normalized": "ON4MCL",
+   "category": "Restricted A12u",
+   "section": "MCL",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON4MLB/p",
+   "normalized": "ON4MLB",
+   "category": "QRP C24u",
+   "section": "MLB",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON4MNS/P",
+   "normalized": "ON4MNS",
+   "category": "Open AB B.LP",
+   "section": "MNS",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON4OSA/P",
+   "normalized": "ON4OSA",
+   "category": "Open AB B.LP",
+   "section": "OSA",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON4PHI/p",
+   "normalized": "ON4PHI",
+   "category": "Restricted A24",
+   "section": "PHI",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON4RAC/P",
+   "normalized": "ON4RAC",
+   "category": "Restricted A12u",
+   "section": "RCA",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON4RAM/P",
+   "normalized": "ON4RAM",
+   "category": "Open AB B.LP",
+   "section": "RAM",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON4RAT/p",
+   "normalized": "ON4RAT",
+   "category": "Open AB B.LP",
+   "section": "RAT",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON4RCA/P",
+   "normalized": "ON4RCA",
+   "category": "Restricted A12u",
+   "section": "RCA",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON4SNW/p",
+   "normalized": "ON4SNW",
+   "category": "Restricted A12u",
+   "section": "SNW",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON4TOR/p",
+   "normalized": "ON4TOR",
+   "category": "Restricted A12u",
+   "section": "TOR",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON4TRC/p",
+   "normalized": "ON4TRC",
+   "category": "Restricted A12u",
+   "section": "TRC",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON5CLR/p",
+   "normalized": "ON5CLR",
+   "category": "Restricted A24",
+   "section": "CLR",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON5UG/p",
+   "normalized": "ON5UG",
+   "category": "Restricted A24",
+   "section": "GNT",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON5LL/p",
+   "normalized": "ON5LL",
+   "category": "QRP C12u",
+   "section": "NOL",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON5VL/P",
+   "normalized": "ON5VL",
+   "category": "Restricted A12u",
+   "section": "LGE",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON5ZO/P",
+   "normalized": "ON5ZO",
+   "category": "Restricted A24",
+   "section": "NNV",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON6MS/p",
+   "normalized": "ON6MS",
+   "category": "Restricted A12u",
+   "section": "TLS",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON6NB/p",
+   "normalized": "ON6NB",
+   "category": "Restricted A24",
+   "section": "NBT",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON6OBR/p",
+   "normalized": "ON6OBR",
+   "category": "QRP C12u",
+   "section": "OBR",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON6SI/p",
+   "normalized": "ON6SI",
+   "category": "Restricted A24u",
+   "section": "NNV",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON6UB/p",
+   "normalized": "ON6UB",
+   "category": "Restricted A24u",
+   "section": "MWV",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON7ERA/P",
+   "normalized": "ON7ERA",
+   "category": "Open AB B.LP",
+   "section": "ERA",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON7LR/p",
+   "normalized": "ON7LR",
+   "category": "Restricted A12u",
+   "section": "LIR",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "OP5Y/p",
+   "normalized": "OP5Y",
+   "category": "Open AB B.LP",
+   "section": "DST",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "OP6A/P",
+   "normalized": "OP6A",
+   "category": "Restricted A24u",
+   "section": "ARA",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "OO2A/P",
+   "normalized": "OO2A",
+   "category": "Open AB B.LP",
+   "section": "GBN",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "OR3O/p",
+   "normalized": "OR3O",
+   "category": "Open AB B.LP",
+   "section": "LIR",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "OR5N/p",
+   "normalized": "OR5N",
+   "category": "Open AB B.LP",
+   "section": "NOK",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "OR7C/p",
+   "normalized": "OR7C",
+   "category": "Open AB B.LP",
+   "section": "ORA",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "OS8B/p",
+   "normalized": "OS8B",
+   "category": "Restricted A24",
+   "section": "CRD",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "OT2L/p",
+   "normalized": "OT2L",
+   "category": "Restricted A24",
+   "section": "LUS",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "OT4O/p",
+   "normalized": "OT4O",
+   "category": "QRP C12u",
+   "section": "PHI",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "OT5X/p",
+   "normalized": "OT5X",
+   "category": "Restricted A12u",
+   "section": "CRD",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "OT6Z/p",
+   "normalized": "OT6Z",
+   "category": "Open AB B.LP",
+   "section": "ZTM",
+   "cells": {
+    "160m": {
+     "status": "not_worked"
+    },
+    "80m": {
+     "status": "not_worked"
+    },
+    "40m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  }
+ ],
+ "stats": {
+  "stations_total": 42,
+  "bands_total": 3,
+  "cells_total": 126,
+  "cells_worked": 0,
+  "cells_open": 126,
+  "manual_overrides": 0,
+  "cells_excluded": 0,
+  "stations_complete": 0,
+  "stations_partial": 0,
+  "stations_untouched": 42,
+  "per_band": {
+   "160m": {
+    "total": 42,
+    "worked": 0,
+    "open": 42,
+    "manual_overrides": 0,
+    "excluded": 0
+   },
+   "80m": {
+    "total": 42,
+    "worked": 0,
+    "open": 42,
+    "manual_overrides": 0,
+    "excluded": 0
+   },
+   "40m": {
+    "total": 42,
+    "worked": 0,
+    "open": 42,
+    "manual_overrides": 0,
+    "excluded": 0
+   }
+  },
+  "per_category": {
+   "Open AB B.LP": {
+    "stations": 14,
+    "total": 42,
+    "worked": 0,
+    "open": 42,
+    "manual_overrides": 0,
+    "excluded": 0
+   },
+   "Restricted A12u": {
+    "stations": 11,
+    "total": 33,
+    "worked": 0,
+    "open": 33,
+    "manual_overrides": 0,
+    "excluded": 0
+   },
+   "Open AB A.HP": {
+    "stations": 1,
+    "total": 3,
+    "worked": 0,
+    "open": 3,
+    "manual_overrides": 0,
+    "excluded": 0
+   },
+   "Restricted A24u": {
+    "stations": 5,
+    "total": 15,
+    "worked": 0,
+    "open": 15,
+    "manual_overrides": 0,
+    "excluded": 0
+   },
+   "QRP C24u": {
+    "stations": 1,
+    "total": 3,
+    "worked": 0,
+    "open": 3,
+    "manual_overrides": 0,
+    "excluded": 0
+   },
+   "Restricted A24": {
+    "stations": 7,
+    "total": 21,
+    "worked": 0,
+    "open": 21,
+    "manual_overrides": 0,
+    "excluded": 0
+   },
+   "QRP C12u": {
+    "stations": 3,
+    "total": 9,
+    "worked": 0,
+    "open": 9,
+    "manual_overrides": 0,
+    "excluded": 0
+   }
+  }
+ },
+ "all_bands": [
+  "160m",
+  "80m",
+  "60m",
+  "40m",
+  "30m",
+  "20m",
+  "17m",
+  "15m",
+  "12m",
+  "10m",
+  "6m",
+  "4m",
+  "2m",
+  "70cm"
+ ],
+ "legend": {
+  "not_worked": "Not worked",
+  "worked_by_n1mm": "Worked (N1MM)",
+  "manual_worked": "Worked (manual)",
+  "manual_not_worked": "Not worked (manual)",
+  "excluded": "Excluded"
+ },
+ "colors": {
+  "not_worked": "#ffffff",
+  "worked_by_n1mm": "#4caf50",
+  "manual_worked": "#1b5e20",
+  "manual_not_worked": "#ffb300",
+  "excluded": "#9e9e9e"
+ },
+ "publication": {
+  "state": "live",
+  "end_utc": "2026-09-06T16:00:00Z"
+ }
 }
