@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at_utc": "2026-09-05T13:00:56Z",
+ "generated_at_utc": "2026-09-05T13:05:58Z",
  "app_version": "1.3.3",
  "readonly": true,
  "show_station_category": true,
@@ -19,7 +19,15 @@
   ],
   "closed": false
  },
- "sources": [],
+ "sources": [
+  {
+   "name": "WLD-720TVQ4",
+   "last_seen_utc": "2026-09-05T13:05:09Z",
+   "packet_count": 9,
+   "last_address": "127.0.0.1",
+   "fresh": true
+  }
+ ],
  "stations": [
   {
    "callsign": "ON4BAF/p",
@@ -412,10 +420,23 @@
      "status": "not_worked"
     },
     "40m": {
-     "status": "not_worked"
+     "status": "worked_by_n1mm",
+     "at_utc": "2026-09-05T13:04:13Z",
+     "mode": "CW",
+     "freq_khz": 7156.0,
+     "source": "WLD-720TVQ4",
+     "qso_count": 1
     }
    },
-   "qsos": []
+   "qsos": [
+    {
+     "band": "40m",
+     "at_utc": "2026-09-05T13:04:13Z",
+     "mode": "CW",
+     "freq_khz": 7156.0,
+     "source": "WLD-720TVQ4"
+    }
+   ]
   },
   {
    "callsign": "ON5VL/P",
@@ -664,10 +685,23 @@
      "status": "not_worked"
     },
     "40m": {
-     "status": "not_worked"
+     "status": "worked_by_n1mm",
+     "at_utc": "2026-09-05T13:02:53Z",
+     "mode": "CW",
+     "freq_khz": 7156.0,
+     "source": "WLD-720TVQ4",
+     "qso_count": 1
     }
    },
-   "qsos": []
+   "qsos": [
+    {
+     "band": "40m",
+     "at_utc": "2026-09-05T13:02:53Z",
+     "mode": "CW",
+     "freq_khz": 7156.0,
+     "source": "WLD-720TVQ4"
+    }
+   ]
   },
   {
    "callsign": "OR7C/p",
@@ -782,13 +816,13 @@
   "stations_total": 42,
   "bands_total": 3,
   "cells_total": 126,
-  "cells_worked": 0,
-  "cells_open": 126,
+  "cells_worked": 2,
+  "cells_open": 124,
   "manual_overrides": 0,
   "cells_excluded": 0,
   "stations_complete": 0,
-  "stations_partial": 0,
-  "stations_untouched": 42,
+  "stations_partial": 2,
+  "stations_untouched": 40,
   "per_band": {
    "160m": {
     "total": 42,
@@ -806,8 +840,8 @@
    },
    "40m": {
     "total": 42,
-    "worked": 0,
-    "open": 42,
+    "worked": 2,
+    "open": 40,
     "manual_overrides": 0,
     "excluded": 0
    }
@@ -816,8 +850,8 @@
    "Open AB B.LP": {
     "stations": 14,
     "total": 42,
-    "worked": 0,
-    "open": 42,
+    "worked": 1,
+    "open": 41,
     "manual_overrides": 0,
     "excluded": 0
    },
@@ -864,8 +898,8 @@
    "QRP C12u": {
     "stations": 3,
     "total": 9,
-    "worked": 0,
-    "open": 9,
+    "worked": 1,
+    "open": 8,
     "manual_overrides": 0,
     "excluded": 0
    }
