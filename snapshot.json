@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at_utc": "2026-09-05T17:07:09Z",
+ "generated_at_utc": "2026-09-05T17:12:11Z",
  "app_version": "1.3.3",
  "readonly": true,
  "show_station_category": true,
@@ -29,8 +29,8 @@
   },
   {
    "name": "WLD-720TVQ4",
-   "last_seen_utc": "2026-09-05T17:05:22Z",
-   "packet_count": 131,
+   "last_seen_utc": "2026-09-05T17:11:24Z",
+   "packet_count": 135,
    "last_address": "127.0.0.1",
    "fresh": true
   }
@@ -216,13 +216,26 @@
      "status": "not_worked"
     },
     "80m": {
-     "status": "not_worked"
+     "status": "worked_by_n1mm",
+     "at_utc": "2026-09-05T17:08:12Z",
+     "mode": "LSB",
+     "freq_khz": 3725.0,
+     "source": "WLD-720TVQ4",
+     "qso_count": 1
     },
     "40m": {
      "status": "not_worked"
     }
    },
-   "qsos": []
+   "qsos": [
+    {
+     "band": "80m",
+     "at_utc": "2026-09-05T17:08:12Z",
+     "mode": "LSB",
+     "freq_khz": 3725.0,
+     "source": "WLD-720TVQ4"
+    }
+   ]
   },
   {
    "callsign": "ON4MNS/P",
@@ -900,13 +913,13 @@
   "stations_total": 42,
   "bands_total": 3,
   "cells_total": 126,
-  "cells_worked": 8,
-  "cells_open": 118,
+  "cells_worked": 9,
+  "cells_open": 117,
   "manual_overrides": 0,
   "cells_excluded": 0,
   "stations_complete": 0,
-  "stations_partial": 7,
-  "stations_untouched": 35,
+  "stations_partial": 8,
+  "stations_untouched": 34,
   "per_band": {
    "160m": {
     "total": 42,
@@ -917,8 +930,8 @@
    },
    "80m": {
     "total": 42,
-    "worked": 2,
-    "open": 40,
+    "worked": 3,
+    "open": 39,
     "manual_overrides": 0,
     "excluded": 0
    },
@@ -966,8 +979,8 @@
    "QRP C24u": {
     "stations": 1,
     "total": 3,
-    "worked": 0,
-    "open": 3,
+    "worked": 1,
+    "open": 2,
     "manual_overrides": 0,
     "excluded": 0
    },
