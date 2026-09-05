@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at_utc": "2026-09-05T19:27:49Z",
+ "generated_at_utc": "2026-09-05T19:32:50Z",
  "app_version": "1.3.3",
  "readonly": true,
  "show_station_category": true,
@@ -29,8 +29,8 @@
   },
   {
    "name": "WLD-720TVQ4",
-   "last_seen_utc": "2026-09-05T19:26:45Z",
-   "packet_count": 175,
+   "last_seen_utc": "2026-09-05T19:32:04Z",
+   "packet_count": 179,
    "last_address": "127.0.0.1",
    "fresh": true
   }
@@ -828,13 +828,26 @@
      "status": "not_worked"
     },
     "80m": {
-     "status": "not_worked"
+     "status": "worked_by_n1mm",
+     "at_utc": "2026-09-05T19:31:34Z",
+     "mode": "LSB",
+     "freq_khz": 3714.0,
+     "source": "WLD-720TVQ4",
+     "qso_count": 1
     },
     "40m": {
      "status": "not_worked"
     }
    },
-   "qsos": []
+   "qsos": [
+    {
+     "band": "80m",
+     "at_utc": "2026-09-05T19:31:34Z",
+     "mode": "LSB",
+     "freq_khz": 3714.0,
+     "source": "WLD-720TVQ4"
+    }
+   ]
   },
   {
    "callsign": "OO2A/P",
@@ -895,7 +908,12 @@
      "status": "not_worked"
     },
     "80m": {
-     "status": "not_worked"
+     "status": "worked_by_n1mm",
+     "at_utc": "2026-09-05T19:24:11Z",
+     "mode": "LSB",
+     "freq_khz": 3796.0,
+     "source": "WLD-720TVQ4",
+     "qso_count": 1
     },
     "40m": {
      "status": "worked_by_n1mm",
@@ -912,6 +930,13 @@
      "at_utc": "2026-09-05T13:02:53Z",
      "mode": "SSB",
      "freq_khz": 7156.0,
+     "source": "WLD-720TVQ4"
+    },
+    {
+     "band": "80m",
+     "at_utc": "2026-09-05T19:24:11Z",
+     "mode": "LSB",
+     "freq_khz": 3796.0,
      "source": "WLD-720TVQ4"
     }
    ]
@@ -1068,13 +1093,13 @@
   "stations_total": 42,
   "bands_total": 3,
   "cells_total": 126,
-  "cells_worked": 21,
-  "cells_open": 105,
+  "cells_worked": 23,
+  "cells_open": 103,
   "manual_overrides": 0,
   "cells_excluded": 0,
   "stations_complete": 0,
-  "stations_partial": 19,
-  "stations_untouched": 23,
+  "stations_partial": 20,
+  "stations_untouched": 22,
   "per_band": {
    "160m": {
     "total": 42,
@@ -1085,8 +1110,8 @@
    },
    "80m": {
     "total": 42,
-    "worked": 6,
-    "open": 36,
+    "worked": 8,
+    "open": 34,
     "manual_overrides": 0,
     "excluded": 0
    },
@@ -1102,8 +1127,8 @@
    "Open AB B.LP": {
     "stations": 14,
     "total": 42,
-    "worked": 7,
-    "open": 35,
+    "worked": 8,
+    "open": 34,
     "manual_overrides": 0,
     "excluded": 0
    },
@@ -1126,8 +1151,8 @@
    "Restricted A24u": {
     "stations": 5,
     "total": 15,
-    "worked": 2,
-    "open": 13,
+    "worked": 3,
+    "open": 12,
     "manual_overrides": 0,
     "excluded": 0
    },
