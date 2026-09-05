@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at_utc": "2026-09-05T13:05:58Z",
+ "generated_at_utc": "2026-09-05T13:10:59Z",
  "app_version": "1.3.3",
  "readonly": true,
  "show_station_category": true,
@@ -22,8 +22,8 @@
  "sources": [
   {
    "name": "WLD-720TVQ4",
-   "last_seen_utc": "2026-09-05T13:05:09Z",
-   "packet_count": 9,
+   "last_seen_utc": "2026-09-05T13:10:38Z",
+   "packet_count": 16,
    "last_address": "127.0.0.1",
    "fresh": true
   }
@@ -422,7 +422,7 @@
     "40m": {
      "status": "worked_by_n1mm",
      "at_utc": "2026-09-05T13:04:13Z",
-     "mode": "CW",
+     "mode": "SSB",
      "freq_khz": 7156.0,
      "source": "WLD-720TVQ4",
      "qso_count": 1
@@ -432,7 +432,7 @@
     {
      "band": "40m",
      "at_utc": "2026-09-05T13:04:13Z",
-     "mode": "CW",
+     "mode": "SSB",
      "freq_khz": 7156.0,
      "source": "WLD-720TVQ4"
     }
@@ -687,7 +687,7 @@
     "40m": {
      "status": "worked_by_n1mm",
      "at_utc": "2026-09-05T13:02:53Z",
-     "mode": "CW",
+     "mode": "SSB",
      "freq_khz": 7156.0,
      "source": "WLD-720TVQ4",
      "qso_count": 1
@@ -697,7 +697,7 @@
     {
      "band": "40m",
      "at_utc": "2026-09-05T13:02:53Z",
-     "mode": "CW",
+     "mode": "SSB",
      "freq_khz": 7156.0,
      "source": "WLD-720TVQ4"
     }
