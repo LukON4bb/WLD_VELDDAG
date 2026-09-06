@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at_utc": "2026-09-06T06:31:35Z",
+ "generated_at_utc": "2026-09-06T06:36:37Z",
  "app_version": "1.3.3",
  "readonly": true,
  "show_station_category": true,
@@ -29,8 +29,8 @@
   },
   {
    "name": "WLD-720TVQ4",
-   "last_seen_utc": "2026-09-06T06:31:28Z",
-   "packet_count": 360,
+   "last_seen_utc": "2026-09-06T06:35:58Z",
+   "packet_count": 364,
    "last_address": "127.0.0.1",
    "fresh": true
   }
@@ -163,7 +163,12 @@
      "status": "not_worked"
     },
     "80m": {
-     "status": "not_worked"
+     "status": "worked_by_n1mm",
+     "at_utc": "2026-09-06T06:33:55Z",
+     "mode": "LSB",
+     "freq_khz": 3780.2,
+     "source": "WLD-720TVQ4",
+     "qso_count": 1
     },
     "40m": {
      "status": "worked_by_n1mm",
@@ -180,6 +185,13 @@
      "at_utc": "2026-09-05T17:49:17Z",
      "mode": "LSB",
      "freq_khz": 7119.6,
+     "source": "WLD-720TVQ4"
+    },
+    {
+     "band": "80m",
+     "at_utc": "2026-09-06T06:33:55Z",
+     "mode": "LSB",
+     "freq_khz": 3780.2,
      "source": "WLD-720TVQ4"
     }
    ]
@@ -1536,8 +1548,8 @@
   "stations_total": 42,
   "bands_total": 3,
   "cells_total": 126,
-  "cells_worked": 59,
-  "cells_open": 67,
+  "cells_worked": 60,
+  "cells_open": 66,
   "manual_overrides": 0,
   "cells_excluded": 0,
   "stations_complete": 7,
@@ -1553,8 +1565,8 @@
    },
    "80m": {
     "total": 42,
-    "worked": 25,
-    "open": 17,
+    "worked": 26,
+    "open": 16,
     "manual_overrides": 0,
     "excluded": 0
    },
@@ -1594,8 +1606,8 @@
    "Restricted A24u": {
     "stations": 5,
     "total": 15,
-    "worked": 8,
-    "open": 7,
+    "worked": 9,
+    "open": 6,
     "manual_overrides": 0,
     "excluded": 0
    },
