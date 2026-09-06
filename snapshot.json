@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at_utc": "2026-09-06T07:31:57Z",
+ "generated_at_utc": "2026-09-06T07:36:59Z",
  "app_version": "1.3.3",
  "readonly": true,
  "show_station_category": true,
@@ -29,8 +29,8 @@
   },
   {
    "name": "WLD-720TVQ4",
-   "last_seen_utc": "2026-09-06T07:31:31Z",
-   "packet_count": 415,
+   "last_seen_utc": "2026-09-06T07:36:39Z",
+   "packet_count": 418,
    "last_address": "127.0.0.1",
    "fresh": true
   }
@@ -214,7 +214,12 @@
      "qso_count": 1
     },
     "40m": {
-     "status": "not_worked"
+     "status": "worked_by_n1mm",
+     "at_utc": "2026-09-06T07:36:39Z",
+     "mode": "LSB",
+     "freq_khz": 7099.97,
+     "source": "WLD-720TVQ4",
+     "qso_count": 1
     }
    },
    "qsos": [
@@ -223,6 +228,13 @@
      "at_utc": "2026-09-05T22:10:11Z",
      "mode": "LSB",
      "freq_khz": 3780.5,
+     "source": "WLD-720TVQ4"
+    },
+    {
+     "band": "40m",
+     "at_utc": "2026-09-06T07:36:39Z",
+     "mode": "LSB",
+     "freq_khz": 7099.97,
      "source": "WLD-720TVQ4"
     }
    ]
@@ -1560,8 +1572,8 @@
   "stations_total": 42,
   "bands_total": 3,
   "cells_total": 126,
-  "cells_worked": 61,
-  "cells_open": 65,
+  "cells_worked": 62,
+  "cells_open": 64,
   "manual_overrides": 0,
   "cells_excluded": 0,
   "stations_complete": 7,
@@ -1584,8 +1596,8 @@
    },
    "40m": {
     "total": 42,
-    "worked": 16,
-    "open": 26,
+    "worked": 17,
+    "open": 25,
     "manual_overrides": 0,
     "excluded": 0
    }
@@ -1594,8 +1606,8 @@
    "Open AB B.LP": {
     "stations": 14,
     "total": 42,
-    "worked": 21,
-    "open": 21,
+    "worked": 22,
+    "open": 20,
     "manual_overrides": 0,
     "excluded": 0
    },
