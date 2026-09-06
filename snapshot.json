@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at_utc": "2026-09-06T07:36:59Z",
+ "generated_at_utc": "2026-09-06T07:42:00Z",
  "app_version": "1.3.3",
  "readonly": true,
  "show_station_category": true,
@@ -29,8 +29,8 @@
   },
   {
    "name": "WLD-720TVQ4",
-   "last_seen_utc": "2026-09-06T07:36:39Z",
-   "packet_count": 418,
+   "last_seen_utc": "2026-09-06T07:41:54Z",
+   "packet_count": 424,
    "last_address": "127.0.0.1",
    "fresh": true
   }
