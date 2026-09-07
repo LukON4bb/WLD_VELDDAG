@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at_utc": "2026-09-07T11:51:14Z",
+ "generated_at_utc": "2026-09-07T12:23:39Z",
  "app_version": "1.3.3",
  "readonly": true,
  "show_station_category": true,
@@ -10,7 +10,7 @@
   "event_callsign": "",
   "organizer_club": "",
   "start_utc": "2026-09-04T08:00:00Z",
-  "end_utc": "2026-09-06T16:00:00Z",
+  "end_utc": "2026-09-19T16:00:00Z",
   "display_timezone": "Europe/Brussels",
   "bands": [
    "160m",
@@ -447,7 +447,7 @@
   {
    "callsign": "ON4PHI/p",
    "normalized": "ON4PHI",
-   "category": "Restricted A24",
+   "category": "Restricted A24u",
    "section": "PHI",
    "cells": {
     "160m": {
@@ -691,7 +691,7 @@
   {
    "callsign": "ON5CLR/p",
    "normalized": "ON5CLR",
-   "category": "Restricted A24",
+   "category": "Restricted A24u",
    "section": "CLR",
    "cells": {
     "160m": {
@@ -722,7 +722,7 @@
   {
    "callsign": "ON5UG/p",
    "normalized": "ON5UG",
-   "category": "Restricted A24",
+   "category": "Restricted A24u",
    "section": "GNT",
    "cells": {
     "160m": {
@@ -875,7 +875,7 @@
   {
    "callsign": "ON5ZO/P",
    "normalized": "ON5ZO",
-   "category": "Restricted A24",
+   "category": "Restricted A24u",
    "section": "NNV",
    "cells": {
     "160m": {
@@ -949,7 +949,7 @@
   {
    "callsign": "ON6NB/p",
    "normalized": "ON6NB",
-   "category": "Restricted A24",
+   "category": "Restricted A24u",
    "section": "NBT",
    "cells": {
     "160m": {
@@ -1487,7 +1487,7 @@
   {
    "callsign": "OS8B/p",
    "normalized": "OS8B",
-   "category": "Restricted A24",
+   "category": "Restricted A24u",
    "section": "CRD",
    "cells": {
     "160m": {
@@ -1542,7 +1542,7 @@
   {
    "callsign": "OT2L/p",
    "normalized": "OT2L",
-   "category": "Restricted A24",
+   "category": "Restricted A24u",
    "section": "LUS",
    "cells": {
     "160m": {
@@ -1771,10 +1771,10 @@
     "excluded": 0
    },
    "Restricted A24u": {
-    "stations": 5,
-    "total": 15,
-    "worked": 11,
-    "open": 4,
+    "stations": 12,
+    "total": 36,
+    "worked": 28,
+    "open": 8,
     "manual_overrides": 0,
     "excluded": 0
    },
@@ -1783,14 +1783,6 @@
     "total": 3,
     "worked": 2,
     "open": 1,
-    "manual_overrides": 0,
-    "excluded": 0
-   },
-   "Restricted A24": {
-    "stations": 7,
-    "total": 21,
-    "worked": 17,
-    "open": 4,
     "manual_overrides": 0,
     "excluded": 0
    },
@@ -1836,6 +1828,6 @@
  },
  "publication": {
   "state": "live",
-  "end_utc": "2026-09-06T16:00:00Z"
+  "end_utc": "2026-09-19T16:00:00Z"
  }
 }
